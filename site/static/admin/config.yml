@@ -56,9 +56,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/products/_index.md"
+      - file: "site/content/membership/_index.md"
         label: "Membership Page"
-        name: "products"
+        name: "membership"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
